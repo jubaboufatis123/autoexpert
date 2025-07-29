@@ -1,0 +1,140 @@
+body{
+    min-height: 100vh;
+    background-image: url(image3.jpg) ;
+    background-size: 1300px 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.contact-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info{
+   color:rgb(20, 19, 19);
+   max-width: 500px;
+   line-height: 70px; /* la distance entre chaque ligne */
+   padding-left: 50px;
+   font-size: 25px; /* taille des ecritures*/
+   margin-left: 45px;
+   margin-top: 80px;
+}
+.contact-info i{
+    margin-right: 20px; /* distance entre l'icones et l'attribut */
+    font-size: 45px;  /* taille de l'icone */
+}
+.contact-info,.contact-form{
+    flex:1;
+
+}
+.contact-form h2{
+    color:rgb(6, 6, 66);
+
+    font-size: 35px;
+    text-transform:uppercase;
+    margin-bottom: 40px; /*distance entre contact us et le champs de saisie */
+    
+}
+.contact-form .text-box{
+    background: rgb(236, 231, 231);
+    color: black;
+    border: none;
+    height: 30px; /* largeur */
+    width: 150px; /* langeur */
+    font-size: 15px;
+    border-radius: 5px; /*champs de saisie machi carre */
+    margin-bottom: 20px;/* distance entre chapms name et email avec message */
+    box-shadow: 0 1px 1px rgba(248, 226, 29, 0.986);
+}
+.contact-form .text-box:first-child{
+        margin-right: 20px;/* distance (l'espace) entre name et email */
+    }
+ .message {
+    background: rgb(238, 231, 231);
+    color:black;
+    width: 450px;
+    padding: 12px;
+    font-size: 17px;
+    border: none;
+    min-height: 130px;
+    max-height: 400px; /* max de largeur */
+    resize: vertical;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px rgba(248, 226, 29, 0.986);
+
+}
+    
+.send-btn{
+    width: 100px;
+    height: 30px;
+    color:rgb(248, 245, 245) ;
+    background: rgb(24, 20, 20);
+    font-size: 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 360px;
+}
+
+@media screen and (max-width:950px) {
+.contact-section{
+flex-direction: column;   /* aken ad ittetti wa af wa */
+} 
+}
+.phone{
+    width: 50px;
+    height: 40px;
+    margin-top: 14px;
+    margin-right: 16px;
+    
+}
+.portable{
+    display: flex;
+}
+.localisation{
+    width: 50px;
+    height: 40px;
+    margin-top: 14px; 
+    margin-right: 16px;
+}
+.locale{
+    display: flex;
+}
+.heure{
+  display: flex;  
+}
+.clock{
+    width: 45px;
+    height: 40px;
+    margin-top: 14px;
+    margin-right: 16px;
+}
+.adresse{
+    display: flex;
+}
+.ad{
+    width: 45px;
+    height: 40px;
+    margin-top: 14px; 
+    margin-right: 16px;  
+}
+.deux{
+    display: block;
+}
+.deux input[type="text"] {
+    text-align: center; /* Centre le texte à l'intérieur de l'élément */
+    padding-top: 20px; /* Ajoute de la marge au-dessus du texte pour le centrer en haut */
+    line-height: 1; /* Place le texte en haut */
+  }
+  
+  
+  
+  
+  
+
+

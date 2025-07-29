@@ -1,0 +1,260 @@
+body {
+    font-family: Arial, sans-serif;
+    display:block;
+   }
+   
+.container {
+    width: 700px;
+    height: 450px ;
+    margin-bottom: 30px;
+   }
+   
+h1 {
+    text-align: center;
+    margin-top: 30px;
+   }
+h3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 27px;
+  color: rgb(18, 18, 135);
+}  
+h2{
+    margin-left: 68px;
+    margin-top:25px;
+
+}
+   
+
+   
+
+.voituree{
+    display: flex;
+    
+   }
+.image{
+    width: 500px;
+    height: 300px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 100px;
+
+
+   }
+.border {
+    border-top: 3px solid black;
+    border-radius: 200px;
+    width: 200px;
+    margin-left:10px ;
+    
+
+    
+  }
+.border2{
+    box-sizing: content-box;
+    transform:skewX(-20deg) skewY(0deg);
+    animation-timing-function: linear;
+    margin-bottom: 10px;
+
+}
+p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:large;
+
+}
+.bloc{
+   display: flex ;
+
+
+}
+.rectangle{
+  height: 280px;
+  width: 300px;
+  margin: auto;
+  border: 1px medium black;
+  box-shadow:  10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+  
+}
+
+
+
+.question2{
+  width: 700px;
+  height: 450px ;
+  margin-top: 10px;
+
+}
+#btn{
+    margin-top: 50px;
+    margin-left: 70px;
+    padding: 10px 20px;
+    background-color: #f32121;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    cursor: pointer;
+    font-size: 19px;
+    transition: 0.5s;
+}
+    
+#btn:hover {
+  background-color: #0d8bf2;
+  transform:scale(1.1);
+}
+.img{
+  height: 100px;
+  width: 100px;
+  margin-top: 100px;
+
+}
+.argent{
+  display: flex;
+  margin-top: 30px;
+  margin-right: 50px;
+
+}
+.prix{
+  margin-top: 10px;
+  margin-left: 110px;
+  font-size: 23px;
+
+}
+footer {
+  margin-top: 100px;
+  background-color: rgba(25, 25, 25, 0.798);
+  color: white;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px;
+ 
+
+}
+
+
+
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+ display: inline-block;
+ margin-right: 10px;
+
+}
+a{
+ display: block;
+ width: 30px;
+ height: 30px;
+ background-repeat: no-repeat;
+ background-size: contain;
+ text-indent: -9999px;
+ 
+}
+a[href*="facebook.com"]{ 
+background-image: url("https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-512.png");
+}
+
+a[href*="twitter.com"]{ 
+ background-image: url("https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png");
+}
+
+a[href*="instagram.com"] {
+ background-image: url("https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/instagram_circle-512.png");
+}
+
+a[href*="linkedin.com"] {
+ background-image: url("https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/linkedin_circle-512.png");
+}
+
+a[href*="youtube.com"] {
+ background-image: url("https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/youtube_circle-512.png");
+}
+.bottom-bar {
+	background-color: #222;
+	text-align: center;
+	padding: 10px 0;
+  margin-top: 90px;
+  }
+  
+.bottom-bar p {
+	font-size: 0.8rem;
+	margin :0px;
+}
+.pied{
+  display: flex;
+}
+.main{
+  margin:auto;
+}
+.main1{
+  margin:auto;
+  margin-top: 10px;
+}
+
+h4{
+  font-size: larger;
+  color: red;
+
+
+}
+.lvidange{
+    height:90px;
+    width: 90px;
+
+}
+.titre{
+   display: flex;
+   justify-content: center;
+}
+.nomsite{
+  display:flex;
+
+}
+.logo{
+    height:50px;
+    width:50px;
+    background-image: none;
+
+
+}/*css pour les images animé*/
+.mySlides{
+  position: relative;/*pour permettre le changement de position*/
+  left: 60px;
+  top: 180px;
+  width: 500px;
+  height: 500px;
+}/*le css pour le scroll en rouge*/
+.dot {
+  position: relative;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb3d;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 1s ease;
+  left: 50px;
+}
+
+.active {/*activer la coleur rouge*/
+  background-color: red;
+}
+
+
+.fade {
+  animation-name: fade;/*desactiver */
+  animation-duration: 2s;
+}
+
+.rectangle{
+	
+border-radius: 20px;
+
+	box-shadow: 0 0 10px -5px #ff1288;
+	transition: 0.8s;
+}
+.rectangle:hover{
+    box-shadow: 0 0 50px 10px rgba(89, 0, 255, 0.795);
+
+ transform:scale(1.1);}
